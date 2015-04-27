@@ -12,6 +12,7 @@
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
     <!-- build:js scripts/vendor/modernizr.js -->
@@ -37,34 +38,30 @@
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="#">Inicio <span class="sr-only">(current)</span></a></li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Rutinas <span class="caret"></span></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Rutinas de entrenamiento <span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
-                            <li><a href="rutinas.html">Rutina de definicion</a></li>
-                            <li><a href="#">Rutinas de volumen</a></li>
+                            <li><a href="rutinas.html">Rutinas de definicion</a></li>
+                            <li><a href="rutinas1.html">Rutinas de volumen</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Nutricion <span class="caret"></span></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Nutrición <span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
                             <li><a href="nutricion.html">Perder peso</a></li>
-                            <li><a href="#">Ganar peso</a></li>
+                            <li><a href="nutricion1.html">Ganar peso</a></li>
                         </ul>
                     </li>
                 </ul>
-                <form class="navbar-form navbar-left" role="search">
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Search">
-                    </div>
-                    <button type="submit" class="btn btn-default">Buscar</button>
-                </form>
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">Contactar</a></li>
+                    <li><a href="contactar.html">Contactar</a></li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container-fluid -->
     </nav>
+    <!-- Carousel
+    ================================================== -->
     <div class="container">
         <div class="col-md-12">
             <div id="carousel-1" class="carousel slide" data-ride="carousel">
@@ -74,27 +71,30 @@
                     <li data-target="#carousel-1" data-slide-to="1"></li>
                     <li data-target="#carousel-1" data-slide-to="2"></li>
                 </ol>
-                <!-- Cotenedor de los slide -->
+                <!-- Contenedor de los slide -->
                 <div class="carousel-inner" role="listbox">
                     <div class="item active">
-                        <img src="img/trai-1-0.jpg" height="600" width="1200" class="img-responsive" alt="">
+                        <img src="img/opt-training1.jpg" height="400" width="1200" class="img-responsive" alt="">
                         <div class="carousel-caption">
                             <h1>Bienvenidos</h1>
                             <h2>En esta pagina podras encontrar rutinas de entrenamiento y tips de nutricion</h2>
+                            <p><a class="btn btn-lg btn-primary" href="#" role="button">Ver mas</a></p>
                         </div>
                     </div>
                     <div class="item">
-                        <img src="img/trai-2-0.jpg" height="600" width="1200" class="img-responsive" alt="">
+                        <img src="img/opt-training2.jpg" height="400" width="1200" class="img-responsive" alt="">
                         <div class="carousel-caption">
                             <h1>Las mejores rutinas</h1>
                             <p>Ponte en forma ya</p>
+                            <p><a class="btn btn-lg btn-primary" href="#" role="button">Ver mas</a></p>
                         </div>
                     </div>
                     <div class="item">
-                        <img src="img/trai-3-0.jpg" height="600" width="1200" class="img-responsive" alt="">
+                        <img src="img/opt-pierdepeso.jpg" height="400" width="1200" class="img-responsive" alt="">
                         <div class="carousel-caption">
                             <h1>Tips de nutricion</h1>
                             <p>Ponte en forma ya</p>
+                            <p><a class="btn btn-lg btn-primary" href="#" role="button">Ver mas</a></p>
                         </div>
                     </div>
                 </div>
@@ -110,8 +110,52 @@
             </div>
         </div>
     </div>
+    <!-- Columas de texto
+    ================================================ -->
     <br>
-    <!-- Footer -->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-md-4 ">
+                <div class="thumbnail">
+                    <img class="img-responsive " src="img/opt-bici.jpg" height="400" width="500" alt="excusa">
+                    <div class="caption">
+                        <h3>Perder peso</h3>
+                        <p>Para perder peso no todo el mundo puede llegar a perder la grasa que desearía, hay personas afortunadas con buena genética que no acumulan grasa o que presentan facilidad para perderla, sin embargo, desafortunadamente hay otro tipo de personas que por su biotipo y factores congénitos no pueden llegar a eliminar su exceso de grasa.</p>
+                        <p>
+                            <a href="#" class="btn btn-primary" role="button">Leer mas</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 ">
+                <div class="thumbnail">
+                    <img class="img-responsive " src="img/opt-bodybuilder.jpg" height="400" width="500" alt="body">
+                    <div class="caption">
+                        <h3>Ganar masa muscular</h3>
+                        <p>Ganar masa muscular es el objetivo más común en cualquier sala de musculación y el principal objetivo que se tiene en mente cuando se comienza a entrenar</p>
+                        <p>
+                            <a href="#" class="btn btn-primary" role="button">Leer mas</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 ">
+                <div class="thumbnail">
+                    <img class="img-responsive " src="img/opt-cintura.jpg" height="400" width="500" alt="cintura">
+                    <div class="caption">
+                        <h3>Alimentacion saludable</h3>
+                        <p>vTal vez parezca una contradicción pero es preferible realizar 5 o 6 comidas diarias a 3 copiosas. Con esto no nos referimos a comer más, sino que comamos con más frecuencia, se trata de repartir el consumo calórico diario en varias comidas, de tal forma que comamos algo cada 3 horas aproximadamente a lo largo del día.</p>
+                        <p>
+                            <a href="#" class="btn btn-primary" role="button">Leer mas</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr class="featurette-divider">
+    <!-- Footer 
+    ==================================================-->
     <footer>
         <div class="container text-center">
             <p class="pull-right">Copyright @ 2014 | Website realizada por
